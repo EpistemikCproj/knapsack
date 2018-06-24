@@ -1,0 +1,8 @@
+.*
+!.gitignore
+*.zip
+*.bak
+/ark
+/out
+/logs
+/obj
