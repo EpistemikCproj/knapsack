@@ -7,8 +7,8 @@
 
 ***************************************************!*/
 
-#ifndef MHS_NODE_H
-#define MHS_NODE_H
+#ifndef MHS_CPROJ_KNAPSACK_NODE_H
+#define MHS_CPROJ_KNAPSACK_NODE_H
 
 // need this line OR ensure that 'MFC compatibility' is NOT selected
 // in Options/Project/Compiler/Source
@@ -79,5 +79,4 @@ void    displayNodeArray( const nodeArray, const int );
 void    deleteNodeArray ( nodeArray, const int );
 int     compareNode     ( const void*, const void* ); // for qsort()
 
-
-#endif // MHS_NODE_H
+#endif // MHS_CPROJ_KNAPSACK_NODE_H
